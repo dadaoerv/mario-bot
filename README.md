@@ -44,12 +44,12 @@ Cloudflare Woker 机器人！ 不需要服务器，只需创建纯粹的 Xray �
 4. in your Dashboard section Select Files and and Click on "Open Bash Console Here"
 5.  Clone this repository:
  ```bash
- git clone https://github.com/自己用户名/项目名称.git
+ git clone https://github.com/dadaoerv/mario-bot.git
 ```
 6. Navigate to the project directory:
 
  ```bash
- cd GFW-BOT
+ cd mario-bot
  ```
 7. Make `requirement.sh` executable:
  ```bash
@@ -57,10 +57,6 @@ Cloudflare Woker 机器人！ 不需要服务器，只需创建纯粹的 Xray �
  ```
 
 8. Run `dos2unix.py`:
-"If you encounter errors running requirement.sh on PythonAnywhere , simply close the console (using `exit` command) , go to file manager and open it and  save it (use `ctrl+s` ) without changing any thing. thats it! now you can run it"
-another solution is converting it using dos2unix 
-since PythonAnyWhere does not support that you can use this simple python code 'dos2unix.py'
-you can run this to solve the issue:
  ```bash
  python3 dos2unix.py
  ```
